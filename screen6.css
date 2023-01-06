@@ -1,0 +1,78 @@
+*{
+    background-color: #26324B;
+}
+
+.maindiv{
+    height: 665px;
+    display: flex;
+}
+
+.div1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardIcon{
+    flex: 0.5;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.leftside{
+    flex: 6;
+    height: 400px;
+    width: 400px;
+    margin-left: -40px;
+}
+
+.logOutIcon{
+    flex: 0.5;
+    height: 60px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+
+
+.div2{
+    flex: 2;
+    margin-left: -30px;
+}
+
+.name{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.balanceImage{
+    margin-top: -23px;
+    margin-left: -20px;
+    width: 500px;
+    height: 140px;
+}
+
+h3{
+    margin-top: -3px;
+    color: white;
+}
+
+.transactionImage{
+    margin-top: -20px;
+    margin-left: -15px;
+    width: 600px;
+}
+
+.div3{
+    flex: 1;
+    margin-left: -30px;
+}
+
+.rightSide{
+    width: 300px;
+    height: 350px;
+    margin-top: -10px;
+}

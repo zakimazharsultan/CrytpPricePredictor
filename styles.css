@@ -1,0 +1,51 @@
+h2{
+    color: orange;
+    background-color: slategray;
+    text-align: center;
+}
+img {
+    width: 100px;
+    float: left;
+    margin-right: 50px;
+  }
+  em {
+    color: red;
+    margin-left: 100px;
+  }
+
+  p{
+    line-height:30px ;
+    column-count: 5;
+    column-gap: 50px;
+  }
+
+  p.cla{
+    color: blue;
+  }
+
+  p.cla.cl{
+    border-style: dashed; border-color: brown;
+  }
+
+  div.cla{
+    color: crimson;
+  }
+
+  #idd{
+    background-color: aquamarine;
+    padding: 10px;
+  }
+
+  
+  a[href]{
+    background-color: chartreuse;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  a[href*=".com"]{       /* instead of * we can use $ for a specific end characters                     */
+    background-color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }

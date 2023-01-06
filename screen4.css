@@ -1,0 +1,120 @@
+*{
+    background-color:#26324B;
+}
+
+.maindiv{
+    height: 665px;
+    display: flex;
+}
+
+
+.div2{
+    flex: 3;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.paragraph{
+    font-size: 20px;
+    text-align: center;
+    color: #BCBCBC;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.submit{
+    background-color: #8d3ef3;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+}
+
+
+/* a{
+    text-decoration: none;
+    background-color: #8d3ef3;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    margin-left: 160px;
+} */
+
+.div1{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imageCoin{
+    height: 180px;
+    width: 140px;
+    margin-top: 80px;
+}
+
+.div3{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.line1{
+    font-size: 20px;
+    text-align: center;
+    color: #BCBCBC;
+    font-weight: bold;
+}
+
+.icons{
+    height: 50px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.line2{
+    font-size: 20px;
+    text-align: center;
+    color: #BCBCBC;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+}
+
